@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: Roboto;
+}
+
+/* Hero & nav part */
+.h-nav-con,
+.first-main,
+.hero-main,
+.img-cont{
+    background-color: #1f2937;
+    color:#fff;
+}
+    
+.h-nav-con{
+    display: flex;
+    padding: 20px 350px;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.h-nav-con h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav a{
+    text-decoration: none;
+    color:#e5e7eb;
+    padding-left:20px;
+    font-size: 18px;
+
+}
+
+.first-main{
+    padding:100px 350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-main{
+    width: 450px;
+    height: 300px;
+}
+.hero-main h1{
+    font: 800 48px Roboto;
+    color:#f9faf8;
+}
+
+.hero-main p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color:#e5e7eb;
+}
+
+
+.img-cont img{
+    width:700px;
+    height: 300px;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 35px;
+    border-radius: 10px;
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border:none;
+    cursor: pointer;
+}
+
+/* Main */
+.second-header{
+    font:800 36px Roboto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.second-main{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.image{
+    width:190px;
+    height: 190px;
+    border:5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.item-cont{
+    width:190px;
+    margin-left: 50px;
+    font-size: 18px;
+    text-align: center;
+    color:#1f2937
+}
+
+/* Quote-text area  */
+.third-main{
+    background-color: #e5e7eb;
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.quote-cont{
+    width: 830px;
+}
+
+.third-main p{
+    font:  italic 36px Roboto;
+    font-weight: 300;
+    color:#1f2937;
+    opacity: 0.8;
+}
+
+.third-main h4{
+    text-align: right;
+    font-size: 24px;
+}
+
+/* Call to act area & footer */
+.fourth-main{
+    display: flex;
+    width:1200px;
+    height:150px;
+    margin: 0 auto 100px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 5px;
+}
+
+.fourth-main button{
+    border:2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+footer{
+    background-color:#1f2937;
+    height: 100px;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
